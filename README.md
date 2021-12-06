@@ -27,7 +27,7 @@ O usuário não precisa estar logado no sistema.
 # Cadastro de especificação no carro
 
 **RF**
-Deve ser possível cadastarr uma especificação para um carro.
+Deve ser possível cadastrar uma especificação para um carro.
 
 **RN**
 Não deve ser possível cadastrar uma especificação para um carro não cadastrado.
@@ -39,7 +39,6 @@ O usuário responsável pelo cadastro deve ser um usuáriio administrador.
 
 **RF**
 Deve ser possível cadastrar a imagem do carro.
-Deve ser possível listar todos os carros.
 
 **RNF**
 Utilizar o multer para o upload dos arquivos.

@@ -17,11 +17,18 @@ class SpecificationsRepository implements ISpecificationsRepository {
       name
     })
     await this.repository.save(specification)
+    return specification
   }
   async findByName(name: string) {
     const specification = await this.repository.findOne({name})
     return specification
   }
+
+  async findByIds(ids: string[]) {
+    const specifications = await this.repository.findByIds(ids)
+    return specifications
+  }
+
 }
 
 export { SpecificationsRepository }
